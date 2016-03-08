@@ -1,0 +1,78 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1868,         70]
+NotebookOptionsPosition[      1515,         53]
+NotebookOutlinePosition[      1864,         68]
+CellTagsIndexPosition[      1821,         65]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"https", ":"}], "//", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"class", ".", "coursera", ".", "org"}], "/", "compfinance"}], 
+     "-", 
+     RowBox[{
+      RowBox[{"009", "/", "quiz"}], "/", 
+      RowBox[{"attempt", "?", "quiz_id"}]}]}]}], "=", "64"}], " ", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.666396943113149*^9, 3.6663969462894683`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Question", " ", "1"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Quantile", "[", 
+   RowBox[{
+    RowBox[{"NormalDistribution", "[", 
+     RowBox[{"0", ",", "1"}], "]"}], ",", "0.05"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.666397180438512*^9, 3.666397193476729*^9}, {
+  3.6663980162333307`*^9, 3.6663980273250303`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"-", "1.6448536269514729`"}]], "Output",
+ CellChangeTimes->{3.6663980284666457`*^9}]
+}, Open  ]]
+},
+WindowSize->{775, 697},
+WindowMargins->{{Automatic, -455}, {-19, Automatic}},
+FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (February 25, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 419, 13, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1002, 37, 387, 9, 52, "Input"],
+Cell[1392, 48, 107, 2, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
